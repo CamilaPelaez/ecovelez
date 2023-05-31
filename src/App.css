@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+  background-color: rgb(241, 255, 245);
+}
+h3{
+  color: rgb(15, 87, 41);
+}
+.text-1{
+  padding: 10px 20px;
+  margin: 15px 5px;
+
+}
+@media (min-width: 1000px) {
+  .text-1{
+    padding: 10px 100px;
+    margin: 20px 5px;
+  }
+}
+@media (min-width: 800px) {
+  .text-1{
+    padding: 10px 50px;
+    margin: 20px 5px;
+  }
+}
+.box{
+  margin: 10px 15px;
+}
+.contain{
+  background-color: rgba(161, 233, 175, 0.593);
+  width: 48%;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 10px;
+}
+@media (max-width: 576px) {
+  .contain{
+    width: 90%;
+    margin: 10px;
+  }
+}
+.contain img{
+  width: 100%;
+ object-fit: contain;
+ border-radius: 15px;
+ margin: 10px 0px;
+}
+.box-1{
+  padding: 15px;
+  background-color: rgb(236, 255, 241);
+}
+.logo{
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-bottom: solid 10px rgb(15, 87, 41);
+}
+.footer{
+  background-color: rgb(20, 83, 47);
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.redes{
+  font-size: 65px!important;
+  margin: 15px 25px;
+  color: rgb(255, 255, 255);
+}
+.redes:hover{
+  color: rgb(155, 255, 190);
+}
+.section-2{
+  background-color: white;
+  padding: 1px 0 20px 0;
+}
+.velez{
+  align-self: center;
+margin: 0 15px;
+}
+.logo-velez{
+  height: 65px;
+  align-self: center;
+}
+@media (max-width: 600px) {
+  .redes{
+    font-size: 50px!important;
+    margin: 15px 25px;
+    color: rgb(255, 255, 255);
+  }
+  .logo-velez{
+    height: 50px;
+  }
+}
+@media (max-width: 400px) {
+  .redes{
+    font-size: 40px!important;
+    margin: 15px 15px;
+    color: rgb(255, 255, 255);
+  }
+  .logo-velez{
+    height: 40px;
+  }
+  .velez{
+  margin: 0 10px;
+  }
+}
+.subtext{
+  font-size: 18px;
+  font-weight: 500;
+  align-self: center;
+  padding: 5px 20px;
+}
+img{
+  max-width: 90%;
+}
+@media (max-width: 1200px) {
+  h4{
+    font-size: 22px!important;
+  }
+  h3{
+    font-size: 26px!important;
+  }
+}
+@media (max-width: 1000px) {
+  h4{
+    font-size: 20px!important;
+  }
+  h3{
+    font-size: 22px!important;
+  }
+}
+@media (max-width: 800px) {
+  h4{
+    font-size: 18px!important;
+  }
+  h3{
+    font-size: 20px!important;
+  }
+  .subtext{
+    font-size: 16px;
+  }
+  .text-1{
+    margin: 0px 15px;
+  }
+}
+@media (max-width: 600px) {
+  h4{
+    font-size: 16px!important;
+  }
+  h3{
+    font-size: 18px!important;
+  }
+  .subtext{
+    font-size: 16px;
+  }
+}
+@media (max-width: 500px) {
+  h4{
+    font-size: 15px!important;
+  }
+  h3{
+    font-size: 17px!important;
+  }
+  .subtext{
+    font-size: 15px;
+  }
+}
+@media (max-width: 400px) {
+  h4{
+    font-size: 14px!important;
+  }
+  h3{
+    font-size: 16px!important;
+  }
+}
